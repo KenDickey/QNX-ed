@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "template": {
+    "projectId": "ed",
+    "artifactName": "ed",
+    "buildType": "SimpleMake",
+    "language": "c",
+    "archlist": "aarch64le",
+    "artifactType": "Executable"
+  }
+}
