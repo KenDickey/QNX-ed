@@ -39,7 +39,7 @@ CCFLAGS_all += -I$(HOME)/qnx800/target/qnx/usr/include
 #LIBS += -L/path/to/my/lib/$(PLATFORM)/usr/lib -lmylib
 #LIBS += -L../mylib/$(OUTPUT_DIR) -lmylib
 LIBS += -lregex
-LDFLAGS_all += $LIBS 
+LDFLAGS_all += -lregex
 
 #Compiler flags for build profiles
 CCFLAGS_release += -O2
